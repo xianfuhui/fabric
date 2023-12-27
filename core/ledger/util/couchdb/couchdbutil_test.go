@@ -9,8 +9,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/common/util"
+	"github.com/xianfuhui/fabric/common/metrics/disabled"
+	"github.com/xianfuhui/fabric/common/util"
 	"github.com/stretchr/testify/assert"
 )
 

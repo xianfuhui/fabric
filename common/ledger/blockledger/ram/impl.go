@@ -10,10 +10,10 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/xianfuhui/fabric/common/flogging"
+	"github.com/xianfuhui/fabric/common/ledger/blockledger"
+	cb "github.com/xianfuhui/fabric/protos/common"
+	ab "github.com/xianfuhui/fabric/protos/orderer"
 	"github.com/pkg/errors"
 )
 

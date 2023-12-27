@@ -10,9 +10,9 @@ import (
 	"errors"
 	"fmt"
 
-	. "github.com/hyperledger/fabric/core/handlers/endorsement/api"
-	. "github.com/hyperledger/fabric/core/handlers/endorsement/api/identities"
-	"github.com/hyperledger/fabric/protos/peer"
+	. "github.com/xianfuhui/fabric/core/handlers/endorsement/api"
+	. "github.com/xianfuhui/fabric/core/handlers/endorsement/api/identities"
+	"github.com/xianfuhui/fabric/protos/peer"
 )
 
 // To build the plugin,

@@ -41,7 +41,7 @@ also:
 These operations would typically be done by an organizational or peer admin.
 The script uses the CLI to execute these commands, however there is support in
 the SDK as well. Refer to the `Hyperledger Fabric Node SDK repo
-<https://github.com/hyperledger/fabric-sdk-node>`__ for example scripts.
+<https://github.com/xianfuhui/fabric-sdk-node>`__ for example scripts.
 
 How an Application Interacts with the Network
 ---------------------------------------------
@@ -72,7 +72,7 @@ Query
 
 Queries are the simplest kind of invocation: a call and response.  The most common query
 will interrogate the state database for the current value associated
-with a key (``GetState``).  However, the `chaincode shim interface <https://godoc.org/github.com/hyperledger/fabric/core/chaincode/shim#ChaincodeStub>`__
+with a key (``GetState``).  However, the `chaincode shim interface <https://godoc.org/github.com/xianfuhui/fabric/core/chaincode/shim#ChaincodeStub>`__
 also allows for different types of ``Get`` calls (e.g. ``GetHistoryForKey`` or ``GetCreator``).
 
 In our example, the peer holds a hash chain of all transactions and maintains

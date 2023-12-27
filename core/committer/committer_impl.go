@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package committer
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/xianfuhui/fabric/common/flogging"
+	"github.com/xianfuhui/fabric/core/ledger"
+	"github.com/xianfuhui/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

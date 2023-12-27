@@ -9,7 +9,7 @@ package customtx
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/common"
 )
 
 var processors Processors

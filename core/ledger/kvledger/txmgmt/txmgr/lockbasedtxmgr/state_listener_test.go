@@ -8,14 +8,14 @@ package lockbasedtxmgr
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/mock"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/xianfuhui/fabric/common/ledger/testutil"
+	"github.com/xianfuhui/fabric/core/ledger"
+	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/xianfuhui/fabric/core/ledger/mock"
+	"github.com/xianfuhui/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/ledger/queryresult"
+	"github.com/xianfuhui/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -23,12 +23,12 @@ import (
 	"testing"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/xianfuhui/fabric/common/flogging"
+	"github.com/xianfuhui/fabric/common/ledger/blkstorage"
+	"github.com/xianfuhui/fabric/common/metrics"
+	"github.com/xianfuhui/fabric/common/metrics/disabled"
+	"github.com/xianfuhui/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

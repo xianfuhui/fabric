@@ -11,11 +11,11 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
+	"github.com/xianfuhui/fabric/common/util"
+	"github.com/xianfuhui/fabric/core/ledger"
+	"github.com/xianfuhui/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/gossip"
+	"github.com/xianfuhui/fabric/protos/ledger/rwset"
 	"github.com/pkg/errors"
 )
 

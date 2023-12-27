@@ -9,10 +9,10 @@ package msgprocessor
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
+	"github.com/xianfuhui/fabric/common/channelconfig"
+	"github.com/xianfuhui/fabric/common/policies"
+	cb "github.com/xianfuhui/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/orderer"
 	"github.com/pkg/errors"
 )
 

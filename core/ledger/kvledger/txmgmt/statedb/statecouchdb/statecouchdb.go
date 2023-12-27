@@ -12,13 +12,13 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/util/couchdb"
+	"github.com/xianfuhui/fabric/common/flogging"
+	"github.com/xianfuhui/fabric/common/metrics"
+	"github.com/xianfuhui/fabric/core/common/ccprovider"
+	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/xianfuhui/fabric/core/ledger/ledgerconfig"
+	"github.com/xianfuhui/fabric/core/ledger/util/couchdb"
 	"github.com/pkg/errors"
 )
 

@@ -16,8 +16,8 @@ limitations under the License.
 package factory
 
 import (
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/sw"
+	"github.com/xianfuhui/fabric/bccsp"
+	"github.com/xianfuhui/fabric/bccsp/sw"
 	"github.com/pkg/errors"
 )
 

@@ -6,8 +6,8 @@
 
 [![Build Status](https://dev.azure.com/Hyperledger/Fabric/_apis/build/status/Merge?branchName=release-1.4)](https://dev.azure.com/Hyperledger/Fabric/_build/latest?definitionId=51&branchName=release-1.4)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/955/badge)](https://bestpractices.coreinfrastructure.org/projects/955)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger/fabric)](https://goreportcard.com/report/github.com/hyperledger/fabric)
-[![GoDoc](https://godoc.org/github.com/hyperledger/fabric?status.svg)](https://godoc.org/github.com/hyperledger/fabric)
+[![Go Report Card](https://goreportcard.com/badge/github.com/xianfuhui/fabric)](https://goreportcard.com/report/github.com/xianfuhui/fabric)
+[![GoDoc](https://godoc.org/github.com/xianfuhui/fabric?status.svg)](https://godoc.org/github.com/xianfuhui/fabric)
 [![Documentation Status](https://readthedocs.org/projects/hyperledger-fabric/badge/?version=release-1.4)](http://hyperledger-fabric.readthedocs.io/en/release-1.4/?badge=release-1.4)
 
 **Note:** This is a **read-only mirror** of the formal [Gerrit](https://gerrit.hyperledger.org/r/#/admin/projects/fabric) repository,
@@ -28,7 +28,7 @@ open source architecture; Hyperledger Fabric is your starting point.
 
 ## Releases
 
-Fabric releases and release notes can be found on the [GitHub releases page](https://github.com/hyperledger/fabric/releases).
+Fabric releases and release notes can be found on the [GitHub releases page](https://github.com/xianfuhui/fabric/releases).
 
 Please visit the [Hyperledger Fabric Jira dashboard](https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104) for our release roadmap.
 We plan on a quarterly release cadence, delivering on a scoped set of themes and select features.

@@ -169,7 +169,7 @@ properties will have ensured the private data is available on other peers.
 Referencing collections from chaincode
 --------------------------------------
 
-A set of `shim APIs <https://godoc.org/github.com/hyperledger/fabric/core/chaincode/shim>`_
+A set of `shim APIs <https://godoc.org/github.com/xianfuhui/fabric/core/chaincode/shim>`_
 are available for setting and retrieving private data.
 
 The same chaincode data operations can be applied to channel state data and
@@ -187,7 +187,7 @@ not to include private data in the main part of the chaincode proposal. A specia
 field in the chaincode proposal called the ``transient`` field can be used to pass
 private data from the client (or data that chaincode will use to generate private
 data), to chaincode invocation on the peer.  The chaincode can retrieve the
-``transient`` field by calling the `GetTransient() API <https://github.com/hyperledger/fabric/blob/8b3cbda97e58d1a4ff664219244ffd1d89d7fba8/core/chaincode/shim/interfaces.go#L315-L321>`_.
+``transient`` field by calling the `GetTransient() API <https://github.com/xianfuhui/fabric/blob/8b3cbda97e58d1a4ff664219244ffd1d89d7fba8/core/chaincode/shim/interfaces.go#L315-L321>`_.
 This ``transient`` field gets excluded from the channel transaction.
 
 Protecting private data content
@@ -219,7 +219,7 @@ configuration definitions and how to set them, refer back to the
           ``memberOnlyRead`` to false. You can then apply your own access
           control logic in chaincode, for example by calling the GetCreator()
           chaincode API or using the client identity
-          `chaincode library <https://github.com/hyperledger/fabric/tree/master/core/chaincode/shim/ext/cid>`__ .
+          `chaincode library <https://github.com/xianfuhui/fabric/tree/master/core/chaincode/shim/ext/cid>`__ .
 
 Querying Private Data
 ~~~~~~~~~~~~~~~~~~~~~
@@ -261,7 +261,7 @@ applied to the channel’s state database to enable JSON content queries, by
 packaging indexes in a ``META-INF/statedb/couchdb/indexes`` directory at chaincode
 installation time.  Similarly, indexes can also be applied to private data
 collections, by packaging indexes in a ``META-INF/statedb/couchdb/collections/<collection_name>/indexes``
-directory. An example index is available `here <https://github.com/hyperledger/fabric-samples/blob/master/chaincode/marbles02_private/go/META-INF/statedb/couchdb/collections/collectionMarbles/indexes/indexOwner.json>`_.
+directory. An example index is available `here <https://github.com/xianfuhui/fabric-samples/blob/master/chaincode/marbles02_private/go/META-INF/statedb/couchdb/collections/collectionMarbles/indexes/indexOwner.json>`_.
 
 Considerations when using private data
 --------------------------------------

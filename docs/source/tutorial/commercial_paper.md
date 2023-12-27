@@ -88,7 +88,7 @@ requirement to install these when you first run the tutorial:
 ## Download samples
 
 The commercial paper tutorial is one of the Hyperledger Fabric
-[samples](https://github.com/hyperledger/fabric-samples) held in a public
+[samples](https://github.com/xianfuhui/fabric-samples) held in a public
 [GitHub](https://www.github.com) repository called `fabric-samples`. As you're
 going to run the tutorial on your machine, your first task is to download the
 `fabric-samples` repository.
@@ -118,16 +118,16 @@ You can now create a directory relative to `$GOPATH `where `fabric-samples` will
 be installed:
 
 ```
-$ mkdir -p $GOPATH/src/github.com/hyperledger/
-$ cd $GOPATH/src/github.com/hyperledger/
+$ mkdir -p $GOPATH/src/github.com/xianfuhui/
+$ cd $GOPATH/src/github.com/xianfuhui/
 ```
 
 Use the [`git clone`](https://git-scm.com/docs/git-clone) command to copy
-[`fabric-samples`](https://github.com/hyperledger/fabric-samples) repository to
+[`fabric-samples`](https://github.com/xianfuhui/fabric-samples) repository to
 this location:
 
 ```
-$ git clone https://github.com/hyperledger/fabric-samples.git
+$ git clone https://github.com/xianfuhui/fabric-samples.git
 ```
 
 Feel free to examine the directory structure of `fabric-samples`:

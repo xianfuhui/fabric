@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/car"
-	"github.com/hyperledger/fabric/core/testutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/xianfuhui/fabric/common/util"
+	"github.com/xianfuhui/fabric/core/chaincode/platforms"
+	"github.com/xianfuhui/fabric/core/chaincode/platforms/car"
+	"github.com/xianfuhui/fabric/core/testutil"
+	pb "github.com/xianfuhui/fabric/protos/peer"
 )
 
 var _ = platforms.Platform(&car.Platform{})

@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/common"
 )
 
 type CollectionInfoProvider struct {

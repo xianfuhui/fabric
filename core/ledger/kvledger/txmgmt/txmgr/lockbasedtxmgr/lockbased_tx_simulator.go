@@ -8,10 +8,10 @@ package lockbasedtxmgr
 import (
 	"fmt"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	commonledger "github.com/xianfuhui/fabric/common/ledger"
+	"github.com/xianfuhui/fabric/core/ledger"
+	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/txmgr"
 	"github.com/pkg/errors"
 )
 

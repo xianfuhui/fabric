@@ -9,7 +9,7 @@ package clilogging
 import (
 	"context"
 
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/xianfuhui/fabric/protos/peer"
 	"github.com/spf13/cobra"
 )
 

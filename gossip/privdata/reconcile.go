@@ -13,13 +13,13 @@ import (
 	"sync"
 	"time"
 
-	util2 "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/committer"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	privdatacommon "github.com/hyperledger/fabric/gossip/privdata/common"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip2 "github.com/hyperledger/fabric/protos/gossip"
+	util2 "github.com/xianfuhui/fabric/common/util"
+	"github.com/xianfuhui/fabric/core/committer"
+	"github.com/xianfuhui/fabric/core/ledger"
+	"github.com/xianfuhui/fabric/gossip/metrics"
+	privdatacommon "github.com/xianfuhui/fabric/gossip/privdata/common"
+	"github.com/xianfuhui/fabric/protos/common"
+	gossip2 "github.com/xianfuhui/fabric/protos/gossip"
 	"github.com/pkg/errors"
 )
 

@@ -30,9 +30,9 @@ RUN sudo chown builder /tmp/softhsm \
 	&& git config user.email "builder@builder.com" \
 	&& git commit --allow-empty --allow-empty-message --no-edit \
 	&& abuild -r
-ADD . $GOPATH/src/github.com/hyperledger/fabric
+ADD . $GOPATH/src/github.com/xianfuhui/fabric
 USER root
-WORKDIR $GOPATH/src/github.com/hyperledger/fabric
+WORKDIR $GOPATH/src/github.com/xianfuhui/fabric
 RUN EXECUTABLES= make gotools
 
 FROM golang:1.13.12-alpine
@@ -48,5 +48,5 @@ RUN apk add --allow-untrusted /tmp/softhsm-2.2.0-r1.apk \
 	&& softhsm2-util --init-token --slot 0 --label "ForFabric" \
 	--so-pin 1234 --pin 98765432
 COPY --from=builder $GOPATH/bin /usr/local/bin
-WORKDIR $GOPATH/src/github.com/hyperledger/fabric
+WORKDIR $GOPATH/src/github.com/xianfuhui/fabric
 

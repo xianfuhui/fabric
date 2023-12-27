@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package privdata
 
 import (
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/xianfuhui/fabric/common/policies"
+	"github.com/xianfuhui/fabric/msp"
+	"github.com/xianfuhui/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

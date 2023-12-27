@@ -21,13 +21,13 @@ import (
 	"io/ioutil"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	pcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/xianfuhui/fabric/common/cauthdsl"
+	"github.com/xianfuhui/fabric/core/common/ccpackage"
+	"github.com/xianfuhui/fabric/msp"
+	mspmgmt "github.com/xianfuhui/fabric/msp/mgmt"
+	pcommon "github.com/xianfuhui/fabric/protos/common"
+	pb "github.com/xianfuhui/fabric/protos/peer"
+	"github.com/xianfuhui/fabric/protos/utils"
 	"github.com/spf13/cobra"
 )
 

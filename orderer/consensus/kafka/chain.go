@@ -15,12 +15,12 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/xianfuhui/fabric/orderer/common/localconfig"
+	"github.com/xianfuhui/fabric/orderer/common/msgprocessor"
+	"github.com/xianfuhui/fabric/orderer/consensus"
+	cb "github.com/xianfuhui/fabric/protos/common"
+	ab "github.com/xianfuhui/fabric/protos/orderer"
+	"github.com/xianfuhui/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

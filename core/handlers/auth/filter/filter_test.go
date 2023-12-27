@@ -10,7 +10,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/xianfuhui/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

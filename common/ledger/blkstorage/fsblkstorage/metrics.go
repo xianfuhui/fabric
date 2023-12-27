@@ -8,7 +8,7 @@ package fsblkstorage
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics"
+	"github.com/xianfuhui/fabric/common/metrics"
 )
 
 type stats struct {

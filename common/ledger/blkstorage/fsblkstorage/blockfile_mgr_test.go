@@ -23,11 +23,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	ledgerutil "github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	putil "github.com/hyperledger/fabric/protos/utils"
+	"github.com/xianfuhui/fabric/common/ledger/testutil"
+	ledgerutil "github.com/xianfuhui/fabric/core/ledger/util"
+	"github.com/xianfuhui/fabric/protos/common"
+	"github.com/xianfuhui/fabric/protos/peer"
+	putil "github.com/xianfuhui/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

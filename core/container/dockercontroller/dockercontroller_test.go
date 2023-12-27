@@ -19,16 +19,16 @@ import (
 	"time"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	"github.com/hyperledger/fabric/core/container/dockercontroller/mock"
-	coreutil "github.com/hyperledger/fabric/core/testutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/xianfuhui/fabric/common/flogging/floggingtest"
+	"github.com/xianfuhui/fabric/common/metrics/disabled"
+	"github.com/xianfuhui/fabric/common/metrics/metricsfakes"
+	"github.com/xianfuhui/fabric/common/util"
+	"github.com/xianfuhui/fabric/core/chaincode/platforms"
+	"github.com/xianfuhui/fabric/core/chaincode/platforms/golang"
+	"github.com/xianfuhui/fabric/core/container/ccintf"
+	"github.com/xianfuhui/fabric/core/container/dockercontroller/mock"
+	coreutil "github.com/xianfuhui/fabric/core/testutil"
+	pb "github.com/xianfuhui/fabric/protos/peer"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/spf13/viper"
@@ -132,7 +132,7 @@ func Test_Start(t *testing.T) {
 
 	client.BuildImageReturns(nil)
 
-	chaincodePath := "github.com/hyperledger/fabric/examples/chaincode/go/example01/cmd"
+	chaincodePath := "github.com/xianfuhui/fabric/examples/chaincode/go/example01/cmd"
 	spec := &pb.ChaincodeSpec{
 		Type:        pb.ChaincodeSpec_GOLANG,
 		ChaincodeId: &pb.ChaincodeID{Name: "ex01", Path: chaincodePath},

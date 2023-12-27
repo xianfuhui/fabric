@@ -32,7 +32,7 @@ stages:
         steps:
           - template: install_deps.yml
           - checkout: self
-            path: 'go/src/github.com/hyperledger/fabric'
+            path: 'go/src/github.com/xianfuhui/fabric'
             displayName: Checkout Fabric Code
           - script: ./ci/scripts/create_binary_package.sh
             displayName: Compile Binary and Create Tarball
@@ -50,7 +50,7 @@ stages:
         steps:
           - template: install_deps.yml
           - checkout: self
-            path: 'go/src/github.com/hyperledger/fabric'
+            path: 'go/src/github.com/xianfuhui/fabric'
             displayName: Checkout Fabric Code
           - script: ./ci/scripts/publish_docker.sh
             env:

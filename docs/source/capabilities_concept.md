@@ -142,7 +142,7 @@ it would not matter, as no peer would be able to get past the block with the
 invalid v1.8 capability.
 
 For a full look at the current valid orderer, application, and channel capabilities
-check out a [sample `configtx.yaml` file](http://github.com/hyperledger/fabric/blob/master/sampleconfig/configtx.yaml),
+check out a [sample `configtx.yaml` file](http://github.com/xianfuhui/fabric/blob/master/sampleconfig/configtx.yaml),
 which lists them in the "Capabilities" section.
 
 For more specific information about capabilities and where they reside in the channel

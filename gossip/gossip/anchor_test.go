@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	utilgossip "github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/xianfuhui/fabric/common/util"
+	"github.com/xianfuhui/fabric/core/comm"
+	"github.com/xianfuhui/fabric/gossip/api"
+	"github.com/xianfuhui/fabric/gossip/common"
+	utilgossip "github.com/xianfuhui/fabric/gossip/util"
+	proto "github.com/xianfuhui/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

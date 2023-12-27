@@ -17,7 +17,7 @@ unit-tests:
     - COUCHDB_ADDR=couchdb:5984
   volumes:
     - /var/run/docker.sock:/var/run/docker.sock
-    - ${GOPATH}/src/github.com/hyperledger/fabric:/opt/gopath/src/github.com/hyperledger/fabric
+    - ${GOPATH}/src/github.com/xianfuhui/fabric:/opt/gopath/src/github.com/xianfuhui/fabric
   command: ./unit-test/run.sh
 
 couchdb:

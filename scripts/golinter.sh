@@ -7,8 +7,8 @@
 set -e
 
 # place the Go build cache directory into the default build tree if it exists
-if [ -d "${GOPATH}/src/github.com/hyperledger/fabric/.build" ]; then
-    export GOCACHE="${GOPATH}/src/github.com/hyperledger/fabric/.build/go-cache"
+if [ -d "${GOPATH}/src/github.com/xianfuhui/fabric/.build" ]; then
+    export GOCACHE="${GOPATH}/src/github.com/xianfuhui/fabric/.build/go-cache"
 fi
 
 fabric_dir="$(cd "$(dirname "$0")/.." && pwd)"
@@ -37,12 +37,12 @@ fi
 # referenced is in the generated protos.
 echo "Checking for golang.org/x/net/context"
 context_whitelist=(
-    "^github.com/hyperledger/fabric/protos(:|/.*:)"
-    "^github.com/hyperledger/fabric/orderer/common/broadcast/mock:"
-    "^github.com/hyperledger/fabric/common/grpclogging/fakes:"
-    "^github.com/hyperledger/fabric/common/grpclogging/testpb:"
-    "^github.com/hyperledger/fabric/common/grpcmetrics/fakes:"
-    "^github.com/hyperledger/fabric/common/grpcmetrics/testpb:"
+    "^github.com/xianfuhui/fabric/protos(:|/.*:)"
+    "^github.com/xianfuhui/fabric/orderer/common/broadcast/mock:"
+    "^github.com/xianfuhui/fabric/common/grpclogging/fakes:"
+    "^github.com/xianfuhui/fabric/common/grpclogging/testpb:"
+    "^github.com/xianfuhui/fabric/common/grpcmetrics/fakes:"
+    "^github.com/xianfuhui/fabric/common/grpcmetrics/testpb:"
 )
 TEMPLATE='{{with $d := .}}{{range $d.Imports}}{{ printf "%s:%s " $d.ImportPath . }}{{end}}{{end}}'
 OUTPUT="$(go list -f "$TEMPLATE" ./... | grep -Ev $(IFS='|' ; echo "${context_whitelist[*]}") | grep 'golang.org/x/net/context' | cut -f1 -d:)"

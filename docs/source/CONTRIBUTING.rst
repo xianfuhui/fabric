@@ -113,7 +113,7 @@ Release cadence
 ~~~~~~~~~~~~~~~
 
 The Fabric maintainers have settled on a quarterly (approximately) release
-cadence (see `releases <https://github.com/hyperledger/fabric#releases>`__).
+cadence (see `releases <https://github.com/xianfuhui/fabric#releases>`__).
 At any given time, there will be a stable LTS (long term support) release branch,
 as well as the master branch for upcoming new features.
 Follow the discussion on the #fabric-release channel in RocketChat.
@@ -262,7 +262,7 @@ result, maintainers will be able to process PRs faster and everybody
 will gain from it.
 
 Just browse through `the open PRs on GitHub
-<https://github.com/hyperledger/fabric/pulls>`__ to get started.
+<https://github.com/xianfuhui/fabric/pulls>`__ to get started.
 
 PR Aging
 ~~~~~~~~
@@ -378,12 +378,12 @@ Legal stuff
 
 **Note:** Each source file must include a license header for the Apache
 Software License 2.0. See the template of the `license header
-<https://github.com/hyperledger/fabric/blob/master/docs/source/dev-setup/headers.txt>`__.
+<https://github.com/xianfuhui/fabric/blob/master/docs/source/dev-setup/headers.txt>`__.
 
 We have tried to make it as easy as possible to make contributions. This
 applies to how we handle the legal aspects of contribution. We use the
 same approach—the `Developer's Certificate of Origin 1.1
-(DCO) <https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt>`__—that the Linux® Kernel
+(DCO) <https://github.com/xianfuhui/fabric/blob/master/docs/source/DCO1.1.txt>`__—that the Linux® Kernel
 `community <https://elinux.org/Developer_Certificate_Of_Origin>`__ uses
 to manage code contributions.
 
