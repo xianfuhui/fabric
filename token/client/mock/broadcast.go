@@ -4,9 +4,9 @@ package mock
 import (
 	"sync"
 
-	"github.com/xianfuhui/fabric/protos/common"
-	ab "github.com/xianfuhui/fabric/protos/orderer"
-	"github.com/xianfuhui/fabric/token/client"
+	"github.com/hyperledger/fabric/protos/common"
+	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/hyperledger/fabric/token/client"
 )
 
 type Broadcast struct {

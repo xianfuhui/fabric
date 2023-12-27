@@ -12,14 +12,14 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xianfuhui/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/xianfuhui/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/xianfuhui/fabric/common/tools/configtxgen/localconfig"
-	"github.com/xianfuhui/fabric/common/tools/protolator"
-	cb "github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/msp"
-	pb "github.com/xianfuhui/fabric/protos/peer"
-	"github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
+	"github.com/hyperledger/fabric/common/tools/protolator"
+	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/msp"
+	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

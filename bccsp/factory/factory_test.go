@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xianfuhui/fabric/bccsp/pkcs11"
+	"github.com/hyperledger/fabric/bccsp/pkcs11"
 	"github.com/spf13/viper"
 )
 

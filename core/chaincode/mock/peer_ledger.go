@@ -4,10 +4,10 @@ package mock
 import (
 	"sync"
 
-	ledgera "github.com/xianfuhui/fabric/common/ledger"
-	"github.com/xianfuhui/fabric/core/ledger"
-	"github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/peer"
+	ledgera "github.com/hyperledger/fabric/common/ledger"
+	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/peer"
 )
 
 type PeerLedger struct {

@@ -9,12 +9,12 @@ package acl_test
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/common/channelconfig"
-	"github.com/xianfuhui/fabric/common/policies"
-	"github.com/xianfuhui/fabric/discovery/support/acl"
-	"github.com/xianfuhui/fabric/discovery/support/mocks"
-	gmocks "github.com/xianfuhui/fabric/peer/gossip/mocks"
-	cb "github.com/xianfuhui/fabric/protos/common"
+	"github.com/hyperledger/fabric/common/channelconfig"
+	"github.com/hyperledger/fabric/common/policies"
+	"github.com/hyperledger/fabric/discovery/support/acl"
+	"github.com/hyperledger/fabric/discovery/support/mocks"
+	gmocks "github.com/hyperledger/fabric/peer/gossip/mocks"
+	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

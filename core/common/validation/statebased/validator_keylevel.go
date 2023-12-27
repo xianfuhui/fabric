@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"sync"
 
-	commonerrors "github.com/xianfuhui/fabric/common/errors"
-	"github.com/xianfuhui/fabric/core/handlers/validation/api/policies"
-	"github.com/xianfuhui/fabric/core/ledger"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/peer"
-	"github.com/xianfuhui/fabric/protos/utils"
+	commonerrors "github.com/hyperledger/fabric/common/errors"
+	"github.com/hyperledger/fabric/core/handlers/validation/api/policies"
+	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

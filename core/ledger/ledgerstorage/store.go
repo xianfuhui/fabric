@@ -10,15 +10,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/xianfuhui/fabric/common/flogging"
-	"github.com/xianfuhui/fabric/common/ledger/blkstorage"
-	"github.com/xianfuhui/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/xianfuhui/fabric/common/metrics"
-	"github.com/xianfuhui/fabric/core/ledger"
-	"github.com/xianfuhui/fabric/core/ledger/ledgerconfig"
-	"github.com/xianfuhui/fabric/core/ledger/pvtdatapolicy"
-	"github.com/xianfuhui/fabric/core/ledger/pvtdatastorage"
-	"github.com/xianfuhui/fabric/protos/common"
+	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/hyperledger/fabric/common/ledger/blkstorage"
+	"github.com/hyperledger/fabric/common/ledger/blkstorage/fsblkstorage"
+	"github.com/hyperledger/fabric/common/metrics"
+	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
+	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
+	"github.com/hyperledger/fabric/core/ledger/pvtdatastorage"
+	"github.com/hyperledger/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("ledgerstorage")

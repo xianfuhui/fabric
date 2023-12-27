@@ -26,9 +26,9 @@ import (
 	"net"
 	"path/filepath"
 
-	"github.com/xianfuhui/fabric/core/comm"
-	"github.com/xianfuhui/fabric/core/config"
-	pb "github.com/xianfuhui/fabric/protos/peer"
+	"github.com/hyperledger/fabric/core/comm"
+	"github.com/hyperledger/fabric/core/config"
+	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )

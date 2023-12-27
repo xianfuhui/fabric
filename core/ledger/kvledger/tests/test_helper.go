@@ -9,8 +9,8 @@ package tests
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/core/ledger"
-	"github.com/xianfuhui/fabric/core/ledger/ledgermgmt"
+	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
 	"github.com/stretchr/testify/assert"
 )
 

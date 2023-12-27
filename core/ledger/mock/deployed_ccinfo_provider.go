@@ -4,9 +4,9 @@ package mock
 import (
 	"sync"
 
-	"github.com/xianfuhui/fabric/core/ledger"
-	"github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
 )
 
 type DeployedChaincodeInfoProvider struct {

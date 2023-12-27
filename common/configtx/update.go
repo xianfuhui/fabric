@@ -9,8 +9,8 @@ package configtx
 import (
 	"strings"
 
-	"github.com/xianfuhui/fabric/common/policies"
-	cb "github.com/xianfuhui/fabric/protos/common"
+	"github.com/hyperledger/fabric/common/policies"
+	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

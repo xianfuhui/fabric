@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xianfuhui/fabric/core/comm"
+	"github.com/hyperledger/fabric/core/comm"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

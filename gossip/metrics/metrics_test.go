@@ -9,7 +9,7 @@ package metrics
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/common/metrics/metricsfakes"
+	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
 	"github.com/stretchr/testify/assert"
 )
 

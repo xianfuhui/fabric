@@ -12,9 +12,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/xianfuhui/fabric/core/comm"
-	"github.com/xianfuhui/fabric/protos/common"
-	ab "github.com/xianfuhui/fabric/protos/orderer"
+	"github.com/hyperledger/fabric/core/comm"
+	"github.com/hyperledger/fabric/protos/common"
+	ab "github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"

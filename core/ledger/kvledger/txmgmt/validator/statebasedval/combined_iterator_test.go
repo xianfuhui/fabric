@@ -19,9 +19,9 @@ package statebasedval
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
 	"github.com/stretchr/testify/assert"
 )
 

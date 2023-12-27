@@ -247,10 +247,10 @@ Ordering Service
   cues for your own implementation. The ordering service code can be found under
   the `orderer package`_.
 
-.. _consensus package: https://github.com/xianfuhui/fabric/blob/master/orderer/consensus/consensus.go
-.. _solo: https://github.com/xianfuhui/fabric/tree/master/orderer/consensus/solo
-.. _kafka: https://github.com/xianfuhui/fabric/tree/master/orderer/consensus/kafka
-.. _orderer package: https://github.com/xianfuhui/fabric/tree/master/orderer
+.. _consensus package: https://github.com/hyperledger/fabric/blob/master/orderer/consensus/consensus.go
+.. _solo: https://github.com/hyperledger/fabric/tree/master/orderer/consensus/solo
+.. _kafka: https://github.com/hyperledger/fabric/tree/master/orderer/consensus/kafka
+.. _orderer package: https://github.com/hyperledger/fabric/tree/master/orderer
 
 ..
 
@@ -300,7 +300,7 @@ Kafka
   explanation of the sensible defaults for Kafka/ZooKeeper.
 
 .. _Kafka Quickstart guide: https://kafka.apache.org/quickstart
-.. _this sample configuration file: https://github.com/xianfuhui/fabric/blob/release-1.1/bddtests/dc-orderer-kafka.yml
+.. _this sample configuration file: https://github.com/hyperledger/fabric/blob/release-1.1/bddtests/dc-orderer-kafka.yml
 
 ..
 
@@ -311,7 +311,7 @@ Kafka
 :Answer:
   Consult `the end-to-end CLI example`_.
 
-.. _the end-to-end CLI example: https://github.com/xianfuhui/fabric/blob/release-1.3/examples/e2e_cli/docker-compose-e2e.yaml
+.. _the end-to-end CLI example: https://github.com/hyperledger/fabric/blob/release-1.3/examples/e2e_cli/docker-compose-e2e.yaml
 
 ..
 

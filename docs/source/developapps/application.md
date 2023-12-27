@@ -46,7 +46,7 @@ An application has to follow six basic steps to submit a transaction:
 
 You're going to see how a typical application performs these six steps using the
 Fabric SDK. You'll find the application code in the `issue.js` file. [View
-it](https://github.com/xianfuhui/fabric-samples/blob/master/commercial-paper/organization/magnetocorp/application/issue.js)
+it](https://github.com/hyperledger/fabric-samples/blob/master/commercial-paper/organization/magnetocorp/application/issue.js)
 in your browser, or open it in your favourite editor if you've downloaded it.
 Spend a few moments looking at the overall structure of the application; even
 with comments and spacing, it's only 100 lines of code!
@@ -115,7 +115,7 @@ transaction proposal to the right peer nodes in the network using the
 options](./connectionoptions.html).
 
 Spend a few moments examining the connection
-[profile](https://github.com/xianfuhui/fabric-samples/blob/master/commercial-paper/organization/magnetocorp/gateway/networkConnection.yaml)
+[profile](https://github.com/hyperledger/fabric-samples/blob/master/commercial-paper/organization/magnetocorp/gateway/networkConnection.yaml)
 `./gateway/connectionProfile.yaml`. It uses
 [YAML](http://yaml.org/spec/1.2/spec.html#Preview), making it easy to read.
 

@@ -4,7 +4,7 @@ package mock
 import (
 	sync "sync"
 
-	ledger "github.com/xianfuhui/fabric/core/ledger"
+	ledger "github.com/hyperledger/fabric/core/ledger"
 )
 
 type LedgerGetter struct {

@@ -9,7 +9,7 @@ package server
 import (
 	"context"
 
-	"github.com/xianfuhui/fabric/protos/token"
+	"github.com/hyperledger/fabric/protos/token"
 	"github.com/pkg/errors"
 )
 

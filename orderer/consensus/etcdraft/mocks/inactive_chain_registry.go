@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	common "github.com/xianfuhui/fabric/protos/common"
+	common "github.com/hyperledger/fabric/protos/common"
 
 	mock "github.com/stretchr/testify/mock"
 )

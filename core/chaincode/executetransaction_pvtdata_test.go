@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xianfuhui/fabric/common/util"
-	"github.com/xianfuhui/fabric/core/common/ccprovider"
-	"github.com/xianfuhui/fabric/core/ledger/ledgerconfig"
-	"github.com/xianfuhui/fabric/protos/common"
-	pb "github.com/xianfuhui/fabric/protos/peer"
+	"github.com/hyperledger/fabric/common/util"
+	"github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
+	"github.com/hyperledger/fabric/protos/common"
+	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/viper"
 )
 
@@ -36,7 +36,7 @@ func TestQueriesPrivateData(t *testing.T) {
 
 	defer cleanup()
 
-	url := "github.com/xianfuhui/fabric/examples/chaincode/go/map"
+	url := "github.com/hyperledger/fabric/examples/chaincode/go/map"
 	cID := &pb.ChaincodeID{Name: "tmap", Path: url, Version: "0"}
 
 	f := "init"

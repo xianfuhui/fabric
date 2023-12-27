@@ -10,10 +10,10 @@ import (
 	"errors"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xianfuhui/fabric/core/common/ccprovider"
-	"github.com/xianfuhui/fabric/core/scc/lscc"
-	"github.com/xianfuhui/fabric/core/scc/lscc/mock"
-	pb "github.com/xianfuhui/fabric/protos/peer"
+	"github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/hyperledger/fabric/core/scc/lscc"
+	"github.com/hyperledger/fabric/core/scc/lscc/mock"
+	pb "github.com/hyperledger/fabric/protos/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

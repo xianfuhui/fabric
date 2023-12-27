@@ -17,10 +17,10 @@ limitations under the License.
 package fsblkstorage
 
 import (
-	"github.com/xianfuhui/fabric/common/ledger/blkstorage"
-	"github.com/xianfuhui/fabric/common/ledger/util"
-	"github.com/xianfuhui/fabric/common/ledger/util/leveldbhelper"
-	"github.com/xianfuhui/fabric/common/metrics"
+	"github.com/hyperledger/fabric/common/ledger/blkstorage"
+	"github.com/hyperledger/fabric/common/ledger/util"
+	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
+	"github.com/hyperledger/fabric/common/metrics"
 )
 
 // FsBlockstoreProvider provides handle to block storage - this is not thread-safe

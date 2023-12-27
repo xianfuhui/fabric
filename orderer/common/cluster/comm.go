@@ -17,9 +17,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xianfuhui/fabric/common/flogging"
-	"github.com/xianfuhui/fabric/core/comm"
-	"github.com/xianfuhui/fabric/protos/orderer"
+	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/hyperledger/fabric/core/comm"
+	"github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

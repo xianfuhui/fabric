@@ -87,7 +87,7 @@ are required:
    ``IssuerRevocationPublicKey`` from step 1.
 
    For example, consider the following excerpt from
-   `configtx.yaml in the Hyperledger Java SDK sample <https://github.com/xianfuhui/fabric-sdk-java/blob/master/src/test/fixture/sdkintegration/e2e-2Orgs/v1.3/configtx.yaml>`_:
+   `configtx.yaml in the Hyperledger Java SDK sample <https://github.com/hyperledger/fabric-sdk-java/blob/master/src/test/fixture/sdkintegration/e2e-2Orgs/v1.3/configtx.yaml>`_:
 
    .. code:: bash
 
@@ -136,7 +136,7 @@ Idemix and chaincode
 From a verifier perspective, there is one more actor to consider: chaincode.
 What can chaincode learn about the transactor when an Idemix credential is used?
 
-The `cid (Client Identity) library <https://github.com/xianfuhui/fabric/tree/master/core/chaincode/shim/ext/cid>`_
+The `cid (Client Identity) library <https://github.com/hyperledger/fabric/tree/master/core/chaincode/shim/ext/cid>`_
 (for golang only) has been extended to support the ``GetAttributeValue`` function
 when an Idemix credential is used. However, as mentioned in the "Current
 limitations" section below, there are only two attributes which are disclosed in
@@ -153,10 +153,10 @@ If Fabric CA is the credential issuer:
   and a value of ``2``.
 
 
-For an example of setting an affiliation in the Java SDK see this `sample <https://github.com/xianfuhui/fabric-sdk-java/blob/release-1.4/src/test/java/org/hyperledger/fabric/sdkintegration/End2endIdemixIT.java#L121>`_.
+For an example of setting an affiliation in the Java SDK see this `sample <https://github.com/hyperledger/fabric-sdk-java/blob/release-1.4/src/test/java/org/hyperledger/fabric/sdkintegration/End2endIdemixIT.java#L121>`_.
 
 For an example of using the CID library in go chaincode to retrieve attributes,
-see this `go chaincode <https://github.com/xianfuhui/fabric-sdk-java/blob/release-1.4/src/test/fixture/sdkintegration/gocc/sampleIdemix/src/github.com/example_cc/example_cc.go#L88>`_.
+see this `go chaincode <https://github.com/hyperledger/fabric-sdk-java/blob/release-1.4/src/test/fixture/sdkintegration/gocc/sampleIdemix/src/github.com/example_cc/example_cc.go#L88>`_.
 
 Current limitations
 -------------------

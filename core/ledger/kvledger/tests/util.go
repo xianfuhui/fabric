@@ -8,15 +8,15 @@ package tests
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/xianfuhui/fabric/common/cauthdsl"
-	configtxtest "github.com/xianfuhui/fabric/common/configtx/test"
-	"github.com/xianfuhui/fabric/common/flogging"
-	lutils "github.com/xianfuhui/fabric/core/ledger/util"
-	"github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/ledger/rwset"
-	protopeer "github.com/xianfuhui/fabric/protos/peer"
-	prototestutils "github.com/xianfuhui/fabric/protos/testutils"
-	"github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/common/cauthdsl"
+	configtxtest "github.com/hyperledger/fabric/common/configtx/test"
+	"github.com/hyperledger/fabric/common/flogging"
+	lutils "github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/ledger/rwset"
+	protopeer "github.com/hyperledger/fabric/protos/peer"
+	prototestutils "github.com/hyperledger/fabric/protos/testutils"
+	"github.com/hyperledger/fabric/protos/utils"
 )
 
 var logger = flogging.MustGetLogger("test2")

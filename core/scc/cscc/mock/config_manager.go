@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/xianfuhui/fabric/common/config"
+	"github.com/hyperledger/fabric/common/config"
 )
 
 type ConfigManager struct {

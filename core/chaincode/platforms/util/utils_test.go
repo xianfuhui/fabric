@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xianfuhui/fabric/common/util"
-	"github.com/xianfuhui/fabric/core/config/configtest"
-	cutil "github.com/xianfuhui/fabric/core/container/util"
+	"github.com/hyperledger/fabric/common/util"
+	"github.com/hyperledger/fabric/core/config/configtest"
+	cutil "github.com/hyperledger/fabric/core/container/util"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

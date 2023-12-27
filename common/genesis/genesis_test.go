@@ -9,8 +9,8 @@ package genesis
 import (
 	"testing"
 
-	cb "github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/utils"
+	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -8,11 +8,11 @@ package stateleveldb
 import (
 	"bytes"
 
-	"github.com/xianfuhui/fabric/common/flogging"
-	"github.com/xianfuhui/fabric/common/ledger/util/leveldbhelper"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/xianfuhui/fabric/core/ledger/ledgerconfig"
+	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

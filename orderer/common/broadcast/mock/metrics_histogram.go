@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/xianfuhui/fabric/common/metrics"
+	"github.com/hyperledger/fabric/common/metrics"
 )
 
 type MetricsHistogram struct {

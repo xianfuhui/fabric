@@ -14,9 +14,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/xianfuhui/fabric/common/util"
-	"github.com/xianfuhui/fabric/protos/ledger/queryresult"
-	pb "github.com/xianfuhui/fabric/protos/peer"
+	"github.com/hyperledger/fabric/common/util"
+	"github.com/hyperledger/fabric/protos/ledger/queryresult"
+	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/op/go-logging"
 	"github.com/pkg/errors"
 )

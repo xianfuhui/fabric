@@ -8,8 +8,8 @@ package channelconfig
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/msp"
-	cb "github.com/xianfuhui/fabric/protos/common"
+	"github.com/hyperledger/fabric/msp"
+	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

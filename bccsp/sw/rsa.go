@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xianfuhui/fabric/bccsp"
+	"github.com/hyperledger/fabric/bccsp"
 )
 
 type rsaSigner struct{}

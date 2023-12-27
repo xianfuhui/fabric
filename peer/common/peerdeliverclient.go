@@ -9,8 +9,8 @@ package common
 import (
 	"context"
 
-	ccapi "github.com/xianfuhui/fabric/peer/chaincode/api"
-	pb "github.com/xianfuhui/fabric/protos/peer"
+	ccapi "github.com/hyperledger/fabric/peer/chaincode/api"
+	pb "github.com/hyperledger/fabric/protos/peer"
 	grpc "google.golang.org/grpc"
 )
 

@@ -104,7 +104,7 @@ sudo chown -R ubuntu:ubuntu /var/hyperledger
 # the backing docker images (since we are, by definition, rebuilding the
 # filesystem) and then ensure we have a fresh set of our go-tools.
 # NOTE: This must be done before the chown below
-cd $GOPATH/src/github.com/xianfuhui/fabric
+cd $GOPATH/src/github.com/hyperledger/fabric
 make clean gotools
 
 # Ensure permissions are set for GOPATH
@@ -126,7 +126,7 @@ EOF
 # Also make it so that it cd's the user to the fabric dir upon logging in
 cat <<EOF >> /home/ubuntu/.bashrc
 PS1="\u@hyperledger-devenv:$DEVENV_REVISION:\w$ "
-cd $GOPATH/src/github.com/xianfuhui/fabric/
+cd $GOPATH/src/github.com/hyperledger/fabric/
 EOF
 
 # finally, remove our warning so the user knows this was successful

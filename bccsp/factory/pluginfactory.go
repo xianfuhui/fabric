@@ -11,7 +11,7 @@ import (
 	"os"
 	"plugin"
 
-	"github.com/xianfuhui/fabric/bccsp"
+	"github.com/hyperledger/fabric/bccsp"
 )
 
 const (

@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/xianfuhui/fabric/protos/token"
-	"github.com/xianfuhui/fabric/token/client"
-	"github.com/xianfuhui/fabric/token/client/mock"
+	"github.com/hyperledger/fabric/protos/token"
+	"github.com/hyperledger/fabric/token/client"
+	"github.com/hyperledger/fabric/token/client/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"

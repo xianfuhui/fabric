@@ -7,15 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package valimpl
 
 import (
-	"github.com/xianfuhui/fabric/common/flogging"
-	"github.com/xianfuhui/fabric/core/ledger"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/validator"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/validator/internal"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
-	"github.com/xianfuhui/fabric/core/ledger/util"
-	"github.com/xianfuhui/fabric/protos/common"
+	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator/internal"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
+	"github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/hyperledger/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("valimpl")

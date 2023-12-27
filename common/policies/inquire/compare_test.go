@@ -9,9 +9,9 @@ package inquire
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/common/policies"
-	"github.com/xianfuhui/fabric/protos/msp"
-	"github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/common/policies"
+	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package gossip
 
 import (
-	"github.com/xianfuhui/fabric/common/flogging"
-	"github.com/xianfuhui/fabric/gossip/api"
-	"github.com/xianfuhui/fabric/msp/mgmt"
+	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/hyperledger/fabric/gossip/api"
+	"github.com/hyperledger/fabric/msp/mgmt"
 )
 
 var saLogger = flogging.MustGetLogger("peer.gossip.sa")

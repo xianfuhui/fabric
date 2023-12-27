@@ -19,7 +19,7 @@ jobs:
     steps:
       - template: install_deps.yml
       - checkout: self
-        path: 'go/src/github.com/xianfuhui/fabric'
+        path: 'go/src/github.com/hyperledger/fabric'
         displayName: Checkout Fabric Code
       - script: make basic-checks native
         displayName: Run Basic Checks
@@ -35,7 +35,7 @@ jobs:
       image: n42org/tox:3.4.0
     steps:
       - checkout: self
-        path: 'go/src/github.com/xianfuhui/fabric'
+        path: 'go/src/github.com/hyperledger/fabric'
         displayName: Checkout Fabric Code
       - script: tox -edocs
         displayName: Build Documentation
@@ -50,7 +50,7 @@ jobs:
     steps:
       - template: install_deps.yml
       - checkout: self
-        path: 'go/src/github.com/xianfuhui/fabric'
+        path: 'go/src/github.com/hyperledger/fabric'
         displayName: Checkout Fabric Code
       - script: ./ci/scripts/setup_hsm.sh
         displayName: Install SoftHSM
@@ -68,7 +68,7 @@ jobs:
     steps:
       - template: install_deps.yml
       - checkout: self
-        path: 'go/src/github.com/xianfuhui/fabric'
+        path: 'go/src/github.com/hyperledger/fabric'
         displayName: Checkout Fabric Code
       - script: make integration-test
         displayName: Run Integration Tests

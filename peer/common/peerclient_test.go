@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xianfuhui/fabric/peer/common"
+	"github.com/hyperledger/fabric/peer/common"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

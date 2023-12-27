@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xianfuhui/fabric/peer/common"
-	common2 "github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/peer/common"
+	common2 "github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

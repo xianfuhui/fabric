@@ -13,9 +13,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/xianfuhui/fabric/common/metadata"
-	"github.com/xianfuhui/fabric/core/chaincode/platforms"
-	"github.com/xianfuhui/fabric/core/chaincode/platforms/mock"
+	"github.com/hyperledger/fabric/common/metadata"
+	"github.com/hyperledger/fabric/core/chaincode/platforms"
+	"github.com/hyperledger/fabric/core/chaincode/platforms/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

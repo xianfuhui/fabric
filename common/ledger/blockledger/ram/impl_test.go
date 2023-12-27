@@ -9,11 +9,11 @@ package ramledger
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/common/flogging"
-	"github.com/xianfuhui/fabric/common/ledger/blockledger"
-	genesisconfig "github.com/xianfuhui/fabric/common/tools/configtxgen/localconfig"
-	cb "github.com/xianfuhui/fabric/protos/common"
-	ab "github.com/xianfuhui/fabric/protos/orderer"
+	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/hyperledger/fabric/common/ledger/blockledger"
+	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
+	cb "github.com/hyperledger/fabric/protos/common"
+	ab "github.com/hyperledger/fabric/protos/orderer"
 )
 
 var genesisBlock = cb.NewBlock(0, nil)

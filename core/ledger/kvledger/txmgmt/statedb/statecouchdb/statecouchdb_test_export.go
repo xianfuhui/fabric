@@ -8,8 +8,8 @@ package statecouchdb
 import (
 	"testing"
 
-	"github.com/xianfuhui/fabric/common/metrics/disabled"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/hyperledger/fabric/common/metrics/disabled"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
 	"github.com/stretchr/testify/assert"
 )
 

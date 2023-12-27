@@ -15,12 +15,12 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/xianfuhui/fabric/bccsp/utils"
-	"github.com/xianfuhui/fabric/common/crypto"
-	"github.com/xianfuhui/fabric/common/util"
-	"github.com/xianfuhui/fabric/protos/common"
-	"github.com/xianfuhui/fabric/protos/msp"
-	proto_utils "github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/hyperledger/fabric/common/crypto"
+	"github.com/hyperledger/fabric/common/util"
+	"github.com/hyperledger/fabric/protos/common"
+	"github.com/hyperledger/fabric/protos/msp"
+	proto_utils "github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

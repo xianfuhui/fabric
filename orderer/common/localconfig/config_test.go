@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xianfuhui/fabric/common/viperutil"
-	"github.com/xianfuhui/fabric/core/config/configtest"
+	"github.com/hyperledger/fabric/common/viperutil"
+	"github.com/hyperledger/fabric/core/config/configtest"
 	"github.com/stretchr/testify/assert"
 )
 

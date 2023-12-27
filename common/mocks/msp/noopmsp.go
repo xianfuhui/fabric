@@ -19,8 +19,8 @@ package msp
 import (
 	"time"
 
-	m "github.com/xianfuhui/fabric/msp"
-	"github.com/xianfuhui/fabric/protos/msp"
+	m "github.com/hyperledger/fabric/msp"
+	"github.com/hyperledger/fabric/protos/msp"
 )
 
 type noopmsp struct {

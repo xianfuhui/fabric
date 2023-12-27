@@ -8,8 +8,8 @@ package chaincode
 
 import (
 	"github.com/golang/protobuf/proto"
-	commonledger "github.com/xianfuhui/fabric/common/ledger"
-	pb "github.com/xianfuhui/fabric/protos/peer"
+	commonledger "github.com/hyperledger/fabric/common/ledger"
+	pb "github.com/hyperledger/fabric/protos/peer"
 )
 
 type QueryResponseGenerator struct {

@@ -4,7 +4,7 @@ package mocks
 import (
 	"sync"
 
-	"github.com/xianfuhui/fabric/core/comm"
+	"github.com/hyperledger/fabric/core/comm"
 	"google.golang.org/grpc"
 )
 

@@ -27,7 +27,7 @@ code annotated by coverage:
 
 Integration test
 ~~~~~~~~~~~~~~~~
-See `Hyperledger Fabric Integration tests <https://github.com/xianfuhui/fabric/blob/master/integration/README.rst>`__
+See `Hyperledger Fabric Integration tests <https://github.com/hyperledger/fabric/blob/master/integration/README.rst>`__
 for Hyperledger Fabric integration test details.
 
 Integration tests cover testing between components, e.g., tests between peers and an orderer, and are used to
@@ -65,7 +65,7 @@ published for use with other repositories.
 
 System test
 ~~~~~~~~~~~
-See `System Testing Hyperledger Fabric <https://github.com/xianfuhui/fabric-test/blob/master/README.md>`__
+See `System Testing Hyperledger Fabric <https://github.com/hyperledger/fabric-test/blob/master/README.md>`__
 for details on system testing.
 
 System testing includes the following categories:
@@ -89,7 +89,7 @@ See `SVT Weekly Results <https://jenkins.hyperledger.org/view/fabric-test/job/fa
 
 See `SVT Performance Test Results Graphs With Testviewer <https://testviewer.mybluemix.net>`__
 
-See `SVT Performance TestViewer Details <https://github.com/xianfuhui/fabric-test/blob/master/tools/Testviewer/README.md>`__
+See `SVT Performance TestViewer Details <https://github.com/hyperledger/fabric-test/blob/master/tools/Testviewer/README.md>`__
 
 
 .. Licensed under Creative Commons Attribution 4.0 International License

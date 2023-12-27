@@ -8,17 +8,17 @@ package lockbasedtxmgr
 import (
 	"fmt"
 
-	commonledger "github.com/xianfuhui/fabric/common/ledger"
-	ledger "github.com/xianfuhui/fabric/core/ledger"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/storageutil"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/xianfuhui/fabric/core/ledger/ledgerconfig"
-	"github.com/xianfuhui/fabric/core/ledger/util"
-	"github.com/xianfuhui/fabric/protos/ledger/queryresult"
-	"github.com/xianfuhui/fabric/protos/ledger/rwset/kvrwset"
+	commonledger "github.com/hyperledger/fabric/common/ledger"
+	ledger "github.com/hyperledger/fabric/core/ledger"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/storageutil"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
+	"github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/hyperledger/fabric/protos/ledger/queryresult"
+	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/pkg/errors"
 )
 

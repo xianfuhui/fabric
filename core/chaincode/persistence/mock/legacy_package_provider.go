@@ -4,8 +4,8 @@ package mock
 import (
 	sync "sync"
 
-	chaincode "github.com/xianfuhui/fabric/common/chaincode"
-	ccprovider "github.com/xianfuhui/fabric/core/common/ccprovider"
+	chaincode "github.com/hyperledger/fabric/common/chaincode"
+	ccprovider "github.com/hyperledger/fabric/core/common/ccprovider"
 )
 
 type LegacyPackageProvider struct {

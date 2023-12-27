@@ -17,11 +17,11 @@ limitations under the License.
 package scc
 
 import (
-	"github.com/xianfuhui/fabric/common/channelconfig"
-	lm "github.com/xianfuhui/fabric/common/mocks/ledger"
-	"github.com/xianfuhui/fabric/common/policies"
-	"github.com/xianfuhui/fabric/core/common/sysccprovider"
-	"github.com/xianfuhui/fabric/core/ledger"
+	"github.com/hyperledger/fabric/common/channelconfig"
+	lm "github.com/hyperledger/fabric/common/mocks/ledger"
+	"github.com/hyperledger/fabric/common/policies"
+	"github.com/hyperledger/fabric/core/common/sysccprovider"
+	"github.com/hyperledger/fabric/core/ledger"
 )
 
 type MocksccProviderFactory struct {

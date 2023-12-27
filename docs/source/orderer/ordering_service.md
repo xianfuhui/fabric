@@ -449,7 +449,7 @@ documentation assumes a working knowledge of Kafka and ZooKeeper. If you decide
 to use Kafka without having this expertise, you should complete, *at a minimum*,
 the first six steps of the [Kafka Quickstart guide](https://kafka.apache.org/quickstart) before experimenting with the
 Kafka-based ordering service. You can also consult
-[this sample configuration file](https://github.com/xianfuhui/fabric/blob/release-1.1/bddtests/dc-orderer-kafka.yml)
+[this sample configuration file](https://github.com/hyperledger/fabric/blob/release-1.1/bddtests/dc-orderer-kafka.yml)
 for a brief explanation of the sensible defaults for Kafka and ZooKeeper.
 
 To learn how to bring up a a Kafka-based ordering service, check out [our documentation on Kafka](../kafka.html).

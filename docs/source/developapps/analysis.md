@@ -74,8 +74,8 @@ commercial papers, and the `redeemed` state allows us to quickly identify these.
 The value of `Owner` of a paper can be used to perform access control on the
 **redeem** transaction, by comparing the `Owner` against the identity of the
 transaction creator. Fabric supports this through the
-[`getCreator()` chaincode API](https://github.com/xianfuhui/fabric-chaincode-node/blob/master/fabric-shim/lib/stub.js#L293).
-If golang is used as a chaincode language, the [client identity chaincode library](https://github.com/xianfuhui/fabric/blob/master/core/chaincode/shim/ext/cid/README.md)
+[`getCreator()` chaincode API](https://github.com/hyperledger/fabric-chaincode-node/blob/master/fabric-shim/lib/stub.js#L293).
+If golang is used as a chaincode language, the [client identity chaincode library](https://github.com/hyperledger/fabric/blob/master/core/chaincode/shim/ext/cid/README.md)
 can be used to retrieve additional attributes of the transaction creator.
 
 ## Transactions

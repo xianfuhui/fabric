@@ -10,9 +10,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xianfuhui/fabric/msp"
-	"github.com/xianfuhui/fabric/msp/cache"
-	mspprotos "github.com/xianfuhui/fabric/protos/msp"
+	"github.com/hyperledger/fabric/msp"
+	"github.com/hyperledger/fabric/msp/cache"
+	mspprotos "github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
 )
 

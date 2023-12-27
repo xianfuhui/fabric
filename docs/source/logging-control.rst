@@ -178,7 +178,7 @@ logger *name* will appear in all log messages created by the logger. The
 
 The default logging level for loggers within the Chaincode container can
 be set in the
-`core.yaml <https://github.com/xianfuhui/fabric/blob/master/sampleconfig/core.yaml>`__
+`core.yaml <https://github.com/hyperledger/fabric/blob/master/sampleconfig/core.yaml>`__
 file. The key ``chaincode.logging.level`` sets the default level for all
 loggers within the Chaincode container. The key ``chaincode.logging.shim``
 overrides the default level for the ``shim`` logger.

@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xianfuhui/fabric/common/crypto"
-	"github.com/xianfuhui/fabric/common/crypto/tlsgen"
-	"github.com/xianfuhui/fabric/protos/msp"
-	"github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/common/crypto"
+	"github.com/hyperledger/fabric/common/crypto/tlsgen"
+	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

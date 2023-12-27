@@ -47,7 +47,7 @@ To clone a repository:
 .. note::
    For Go-based repositories not yet using Go Modules, the location on your disk
    must be relative to your GOPATH's `src` directory, i.e.,
-   `$GOPATH/src/github.com/xianfuhui`.
+   `$GOPATH/src/github.com/hyperledger`.
 
 - Execute the following command to clone your fork
 
@@ -61,7 +61,7 @@ To clone a repository:
 .. code::
 
    cd <repository_name>
-   git remote add upstream https://github.com/xianfuhui/<repository_name>.git
+   git remote add upstream https://github.com/hyperledger/<repository_name>.git
 
 - You can now list your remote branches and confirm your local repository has created
   a link with the remote upstream repository
@@ -175,7 +175,7 @@ Now that you've created and pushed changes to a feature branch in your forked
 repository, you can now open a pull request against the original Hyperledger
 repository from which you created your fork and begin the code review process.
 
-- To begin, navigate to `https://github.com/xianfuhui/<original_repository>` in your browser
+- To begin, navigate to `https://github.com/hyperledger/<original_repository>` in your browser
 - Select the `Pull Requests` tab at the top of the page
 - In the top right corner of the Pull Requests page, select `New Pull Request`
 - On the Compare Changes page, select `compare across forks` at the top of the page

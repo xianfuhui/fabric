@@ -15,12 +15,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xianfuhui/fabric/common/cauthdsl"
-	"github.com/xianfuhui/fabric/core/handlers/validation/api/state"
-	"github.com/xianfuhui/fabric/protos/ledger/rwset"
-	"github.com/xianfuhui/fabric/protos/ledger/rwset/kvrwset"
-	pb "github.com/xianfuhui/fabric/protos/peer"
-	"github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/hyperledger/fabric/core/handlers/validation/api/state"
+	"github.com/hyperledger/fabric/protos/ledger/rwset"
+	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

@@ -11,13 +11,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xianfuhui/fabric/common/flogging"
-	commonledger "github.com/xianfuhui/fabric/common/ledger"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/queryutil"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/queryutil/mock"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb"
-	statedbmock "github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb/mock"
-	"github.com/xianfuhui/fabric/protos/ledger/queryresult"
+	"github.com/hyperledger/fabric/common/flogging"
+	commonledger "github.com/hyperledger/fabric/common/ledger"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/queryutil"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/queryutil/mock"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
+	statedbmock "github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb/mock"
+	"github.com/hyperledger/fabric/protos/ledger/queryresult"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -55,10 +55,10 @@ noverify = [
 
 [[constraint]]
   branch = "master"
-  name = "github.com/xianfuhui/fabric-amcl"
+  name = "github.com/hyperledger/fabric-amcl"
 
 [[constraint]]
-  name = "github.com/xianfuhui/fabric-lib-go"
+  name = "github.com/hyperledger/fabric-lib-go"
   version = "1.0.0"
 
 [[constraint]]

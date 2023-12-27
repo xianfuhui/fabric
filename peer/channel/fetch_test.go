@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xianfuhui/fabric/core/config/configtest"
-	"github.com/xianfuhui/fabric/peer/common"
-	"github.com/xianfuhui/fabric/peer/common/mock"
-	cb "github.com/xianfuhui/fabric/protos/common"
-	ab "github.com/xianfuhui/fabric/protos/orderer"
-	putils "github.com/xianfuhui/fabric/protos/utils"
+	"github.com/hyperledger/fabric/core/config/configtest"
+	"github.com/hyperledger/fabric/peer/common"
+	"github.com/hyperledger/fabric/peer/common/mock"
+	cb "github.com/hyperledger/fabric/protos/common"
+	ab "github.com/hyperledger/fabric/protos/orderer"
+	putils "github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

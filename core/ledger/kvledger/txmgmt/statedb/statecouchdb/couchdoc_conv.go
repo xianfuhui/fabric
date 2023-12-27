@@ -11,9 +11,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/xianfuhui/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/xianfuhui/fabric/core/ledger/util/couchdb"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/hyperledger/fabric/core/ledger/util/couchdb"
 	"github.com/pkg/errors"
 )
 
